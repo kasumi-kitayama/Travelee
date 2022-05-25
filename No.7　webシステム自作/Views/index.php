@@ -79,7 +79,7 @@ body {
   top: 150px;
   right: 0px;
   display: flex;
-  width: 700px;
+  width: 40%;
   height: 80px;
   margin-left: auto;
   border: 1px solid #257985;
@@ -89,12 +89,12 @@ body {
 }
 
 .hide {
-  margin-right: -620px;
+  margin-right: -35.5%;
   opacity: 0.7;
 }
 
 #magnifying_glass {
-  width: 70px;
+  width: 10%;
   height: 70px;
   margin: 5px;
   border-radius: 10px;
@@ -102,12 +102,8 @@ body {
 
 #search_box {
   display: flex;
-  width: 610px;
-  /* height: 60px; */
+  width: 87%;
   margin: auto 0;
-  /* margin-top: 7px; */
-  /* margin-left: -3px; */
-  /* vertical-align: top; */
   border-color: #ffffff;
 }
 
@@ -133,7 +129,7 @@ select {
   border-radius: 5px;
 }
 
-#album_wrapper {/* padding: 20px 30px; #wrapperの代わり?*/
+#album_wrapper {
  display: flex;
  width: 86%;
  max-width: 86%;
@@ -156,11 +152,11 @@ li {
 }
 
 li:nth-of-type(4n-2) {
-  margin: 0 35px 0 70px;
+  margin: 0 2% 0 4%;
 }
 
 li:nth-of-type(4n-1) {
-  margin: 0 70px 0 35px;
+  margin: 0 4% 0 2%;
 }
 
 .albums {

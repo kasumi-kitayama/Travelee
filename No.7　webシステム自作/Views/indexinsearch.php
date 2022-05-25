@@ -91,26 +91,30 @@ body {
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
-  padding: 10px 0;
+  padding: 180px 0 10px 0;
 }
 
 #search_bar {
+  position: fixed;
+  top: 150px;
+  right: 0px;
   display: flex;
-  width: 700px;
+  width: 40%;
   height: 80px;
   margin-left: auto;
-  border: 1px solid #257985; /*aadddd  009999  5ea8a7   257985*/
+  border: 1px solid #257985;
   border-radius: 15px;
   background-color: #257985;
+  z-index: 500;
 }
 
 .hide {
-  margin-right: -620px;
+  margin-right: -35.5%;
   opacity: 0.7;
 }
 
 #magnifying_glass {
-  width: 70px;
+  width: 10%;
   height: 70px;
   margin: 5px;
   border-radius: 10px;
@@ -118,12 +122,8 @@ body {
 
 #search_box {
   display: flex;
-  width: 610px;
-  /* height: 60px; */
+  width: 87%;
   margin: auto 0;
-  /* margin-top: 7px; */
-  /* margin-left: -3px; */
-  /* vertical-align: top; */
   border-color: #ffffff;
 }
 
@@ -150,9 +150,11 @@ select {
 }
 
 #album_wrapper {
- /* width: 85%; */
- margin: 0 auto;
- /* padding: 20px 30px; #wrapperの代わり?*/
+  display: flex;
+  width: 86%;
+  max-width: 86%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 ol, li {
@@ -169,26 +171,27 @@ li {
  margin-bottom: 30px;
 }
 
-li:nth-of-type(3n-1) {
- margin: 0 66px;
+li:nth-of-type(4n-2) {
+  margin: 0 2% 0 4%;
+}
+
+li:nth-of-type(4n-1) {
+  margin: 0 4% 0 2%;
 }
 
 .albums {
- display: block;
- height: 300px;
- width: 330px;
- border: 1px solid #0f1f38;
- text-decoration: none;
- border-radius: 25px;
+  display: block;
+  height: 330px;
+  width: 380px;
+  border: 1px solid #444444;
+  text-decoration: none;
+  border-radius: 25px;
 }
 
 .image_area {
- height: 65%;
- width: 90%;
- margin: 5% auto;
- border: 1px solid #0f1f38;
- text-align: center;
- line-height: 160px;
+  height: 65%;
+  width: 90%;
+  margin: 5% auto;
 }
 
 .image {
@@ -218,29 +221,13 @@ li:nth-of-type(3n-1) {
 }
 
 .album_names {
- height: 20%;
- width: 90%;
- margin: 5% auto;
- font-size: 30px;
- color: #0f1f38;
- text-align: center;
-}
-
-#top {
-  position: absolute;
-  right: 0;
-  bottom: 60px;
-}
-
-#top_button {
-  width: 100px;
-  height: 80px;
-  font-size: 20px;
-  color: #ffffff;
-  background-color: #ff9f9f;
-  background: rgba(225, 100, 200, 0.8);
-  border: 1px solid #ffffff;
-  cursor: pointer;
+  height: 20%;
+  width: 90%;
+  margin: 6% auto;
+  font-size: 35px;
+  font-weight: bold;
+  color: #444444;
+  text-align: center;
 }
 </style>
 </html>
