@@ -1,0 +1,102 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 160px 0 100px 0;
+}
+
+#title_wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+#title {
+  font-size: 40px;
+}
+
+section {
+  width: 60%;
+  margin: auto;
+}
+
+#directions {
+  display: flex;
+  justify-content: space-between;
+}
+
+#message {
+  font-size: 25px;
+}
+
+.delete_button {
+  width: 240px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #006f86;
+  background-color: #ffffff;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+}
+
+.error {
+  font-size: 25px;
+  color: #ff0000;
+}
+
+ol, li {
+  list-style: none;
+}
+
+.page {
+  display: block;
+  height: 600px;
+  width: 70%;
+  margin: 50px auto;
+  border: 1px solid #444444;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.image_area {
+  height: 65%;
+  width: 85%;
+  margin: auto;
+  padding: 5% 0;
+}
+
+.empty_images {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.no_image {
+  position: absolute;
+  top: 58%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.images {
+  height: 100%;
+  width: 100%;
+}
+
+.captions {
+  height: 50%;
+  width: 80%;
+  margin: 3% 10%;
+  font-size: 20px;
+  color: #000000;
+}

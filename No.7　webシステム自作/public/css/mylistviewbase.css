@@ -1,0 +1,128 @@
+body {
+  margin: 0 auto;
+}
+
+#wrapper {
+ width: 100%;
+ margin: 0 auto;
+ padding: 150px 0 10px 0;
+}
+
+#title_wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  max-width: 60%;
+  margin: 20px auto;
+}
+
+#title {
+  font-size: 40px;
+}
+
+.list_button {
+  width: 270px;
+  height: 60px;
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #006f86;
+  background-color: #ffffff;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#table_wrapper {
+  width: 60%;
+  max-width: 60%;
+  margin: 30px auto;
+}
+
+#message {
+  font-size: 25px;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+  font-size: 30px;
+}
+
+th {
+  padding: 20px 0;
+  text-align: left;
+}
+
+.content {
+  padding: 20px 0 20px 20px;
+  text-align: left;
+}
+
+#edit_buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  margin-left: auto;
+  padding: 20px 0;
+}
+
+.edit_button {
+  width: 100px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #006f86;
+  background-color: #ffffff;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 25px;
+  color: #ff0000;
+}
+
+#form_wrapper {
+  display: none;
+  width: 60%;
+  max-width: 60%;
+  margin: 60px auto;
+}
+
+#form_organizer {
+  display: flex;
+}
+
+#item {
+  display: block;
+  height: 60px;
+  padding: 0;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+#content {
+  display: block;
+  width: 55%;
+  height: 60px;
+  margin-left: 10px;
+  padding: 0;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+#add_button {
+  display: block;
+  width: 100px;
+  height: 60px;
+  margin-left: auto;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #006f86;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+  cursor: pointer;
+}

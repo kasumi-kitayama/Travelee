@@ -1,0 +1,112 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 200px 0 100px 0;
+}
+
+form {
+  width: 90%;
+  margin: auto;
+}
+
+#name {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#private_label {
+  margin-left: 30px;
+  font-size: 30px;
+  vertical-align: sub;
+}
+
+#private {
+  margin-left: 15px;
+  transform: scale(2.0);
+}
+
+.error {
+  font-size: 20px;
+  color: #ff0000;
+}
+
+.thumbnail_area {
+  position: relative;
+  height: 300px;
+  width: 500px;
+  margin: 40px 0 20px 0;
+}
+
+#empty_image {
+  height: 100%;
+  width: 100%;
+}
+
+#no_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+#thumbnail {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#image {
+  font-size: 20px;
+}
+
+#clear_image {
+  margin-right: 15px;
+  transform: scale(2.0);
+}
+
+#no_image_label {
+  font-size: 25px;
+}
+
+textarea {
+  width: 600px;
+  height: 100px;
+  margin: 20px 0;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#save_button {
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #006f86;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+}
+
+#delete_button {
+  width: 250px;
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #006f86;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+}

@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+}
+
+#wrapper {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  padding: 120px 0 100px 0;
+}
+
+#form_wrapper {
+  width: 90%;
+  max-width: 90%;
+  margin: 60px auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#message {
+  padding-bottom: 25px;
+  font-size: 25px;
+}
+
+.item {
+  margin: 50px 0 0 0;
+}
+
+label {
+  font-size: 28px;
+}
+
+.display {
+  margin: 0 0 0 10px;
+  font-size: 35px;
+}
+
+#back_button {
+  width: 200px;
+  height: 60px;
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #006f86;
+  background-color: #ffffff;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+}
+
+#ok_button {
+  width: 200px;
+  height: 60px;
+  margin: 30px 0;
+  font-size: 30px;
+  font-weight: bold;
+  color: #006f86;
+  background-color: #ffffff;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+}

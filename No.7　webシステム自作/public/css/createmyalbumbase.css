@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+}
+
+#wrapper {
+ width: 100%;
+ margin: 0 auto;
+ padding: 180px 0 10px 0;
+}
+
+form {
+  width: 90%;
+  max-width: 90%;
+  margin: 60px auto;
+}
+
+#name {
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+label {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+#private {
+  position: relative;
+  top: -3px;
+  width: 30px;
+  transform: scale(2.0);
+}
+
+#button {
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #006f86;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+}

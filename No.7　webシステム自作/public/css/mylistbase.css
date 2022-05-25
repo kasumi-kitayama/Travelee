@@ -1,0 +1,133 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 150px 0 100px 0;
+}
+
+#title_wrapper {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  /* padding-left: 50px; */
+}
+
+#lists_wrapper {
+  width: 60%;
+  margin: auto;
+}
+
+ol, li {
+  list-style: none;
+  width: 100%;
+  margin: auto;
+}
+
+#new_list {
+  display: block;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  padding: 10px 0;
+  margin: 15px 0;
+  text-decoration: none;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+#add {
+  height: 40px;
+  width: 40px;
+  margin: auto 0 auto 10px;
+  border: 1px solid #808080;;
+  border-radius: 10px;
+}
+
+#plus {
+  margin: 0;
+  font-size: 30px;
+  color: #808080;
+  text-align: center;
+  line-height: 40px;
+}
+
+#new_list_name {
+  margin: 0 0 0 10px;
+  font-size: 35px;
+  color: #808080;
+  line-height: 65px;
+}
+
+form {
+  display: none;
+  height: 60px;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+#input_name {
+  display: flex;
+  justify-content: space-between;
+}
+
+#name {
+  width: 700px;
+  height: 60px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#create_button {
+  width: 150px;
+  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #006f86;
+  border: 3px solid #006f86;
+  border-radius: 10px;
+}
+
+.mylists {
+  display: block;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  padding: 10px 0;
+  margin: 15px 0;
+  text-decoration: none;
+  border: 3px solid #90d7ec;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.list_name {
+  margin: 0 0 0 10px;
+  font-size: 35px;
+  color: #0f1f38;
+  line-height: 65px;
+}
+
+#delete {
+  height: 40px;
+  width: 40px;
+  margin: auto 10px auto auto;
+  border: 1px solid #d3d3d3;;
+  border-radius: 40px;
+  background-color: #d3d3d3;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 40px;
+  z-index: 100;
+}
